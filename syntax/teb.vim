@@ -16,7 +16,7 @@ syntax region TEBcomment matchgroup=tebcommentdelim start="⦇"  end="⦈"
 hi TEBeq guibg=#cccccc
 hi TEBeqdelim guifg=#cccccc
 
-hi TEBcomment cterm=italic guibg=#22c125
+hi TEBcomment cterm=italic guifg=#22c125
 hi TEBcommentdelim guifg=#cccccc
 
 
