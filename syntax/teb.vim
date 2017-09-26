@@ -20,3 +20,5 @@ hi TEBcomment cterm=italic guifg=#22c125
 hi TEBcommentdelim guifg=#cccccc
 
 set foldmethod=indent
+set foldtext=
+set fillchars=
