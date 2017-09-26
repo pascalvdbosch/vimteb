@@ -10,13 +10,14 @@ set iskeyword-=_
 
 
 syntax region TEBeq      matchgroup=tebeqdelim      start="\$" end="\$"
-syntax region TEBcomment matchgroup=tebcommentdelim start="\u2987"  end="\u2988"
+syntax region TEBcomment matchgroup=tebcommentdelim start="⦇"  end="⦈"
+"syntax region TEBcomment matchgroup=tebcommentdelim start="\u2987"  end="\u2988"
 
 hi TEBeq guibg=#cccccc
 hi TEBeqdelim guifg=#cccccc
 
-hi TEBeq cterm=italic guibg=#22c125
-hi TEBeqdelim guifg=#cccccc
+hi TEBcomment cterm=italic guibg=#22c125
+hi TEBcommentdelim guifg=#cccccc
 
 
 
