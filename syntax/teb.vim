@@ -9,8 +9,10 @@ endif
 set iskeyword-=_
 
 
-syn region TEBequation matchgroup=TeXequation start="\$" end="\$"
-hi TEBequation guibg=#005ff1
+syn match TEBequationdelimiter '\$'
+"syn region TEBequation matchgroup=TeXequation start="\$" end="\$"
+"hi TEBequation guibg=#005ff1
+hi TEBequationdelimiter guibg=#ff0000
 
 
 
