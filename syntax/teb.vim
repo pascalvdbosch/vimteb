@@ -19,7 +19,11 @@ hi TEBeqdelim guifg=#cccccc
 hi TEBcomment cterm=italic guifg=#22c125
 hi TEBcommentdelim guifg=#cccccc
 
+
+function! NeatFoldText()
+    return ''
+endfunction
 set foldmethod=indent
-set foldtext=yy
+set foldtext=NeatFoldText()
 set fillchars=fold:\ 
 highlight Folded ctermfg=DarkGreen ctermbg=Black
