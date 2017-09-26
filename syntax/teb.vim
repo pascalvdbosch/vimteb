@@ -10,7 +10,7 @@ set iskeyword-=_
 
 
 syn match TEBequationdelimiter '\$'
-syn region TEBequation matchgroup=TeXequation start="\$" end="\$"
+syn region TEBequation end="\$" matchgroup=TeXequation start="\$"
 hi TEBequationdelimiter guibg=#ff0000
 hi TEBequation guibg=#005ff1
 
