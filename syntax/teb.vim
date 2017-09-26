@@ -21,5 +21,5 @@ hi TEBcommentdelim guifg=#cccccc
 
 set foldmethod=indent
 set foldtext=yy
-set fillchars=x
+set fillchars=fold:\ 
 highlight Folded ctermfg=DarkGreen ctermbg=Black
