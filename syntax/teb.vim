@@ -9,8 +9,13 @@ endif
 set iskeyword-=_
 
 
-syntax region TEBeq matchgroup=tebeqdelim start="\$" end="\$"
+syntax region TEBeq      matchgroup=tebeqdelim      start="\$" end="\$"
+syntax region TEBcomment matchgroup=tebcommentdelim start="⦇"  end="⦈"
+
 hi TEBeq guibg=#cccccc
+hi TEBeqdelim guifg=#cccccc
+
+hi TEBeq cterm=italic guibg=#22c125
 hi TEBeqdelim guifg=#cccccc
 
 
