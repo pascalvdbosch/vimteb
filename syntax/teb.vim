@@ -11,7 +11,7 @@ set iskeyword-=_
 
 syntax region TEBeq matchgroup=tebeqdelim start="\$" end="\$"
 hi TEBeq guibg=#ff0000
-hi TEBeqdelim ctermfg=red
+hi TEBeqdelim ctermfg=red guibg=#00ff00 guifg=#00ff00
 
 
 
